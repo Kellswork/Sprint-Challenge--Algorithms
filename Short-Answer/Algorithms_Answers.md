@@ -3,13 +3,13 @@
 ## Exercise I
 
 a)  a = 0 =>  c
-    while a(a < n * n * n) => O(n^3)
+    while a(a < n * n * n) => O(n)
     a = a + n * n => O(1)
     
-    run time complexity => O(n^3)
+    run time complexity => O(n)
     the while loops works based on the data that is given as n
-    the loop runs n^3 times because for every value of n,
-    the while loop would have to run based on n * n * n at the end
+    the loop runs n number of times no mater the value of n being calaculated
+    the while loop would have to run based on n times at the end
 
 b) sum = 0 => O(1)
     for i in range(n): => O(n)
