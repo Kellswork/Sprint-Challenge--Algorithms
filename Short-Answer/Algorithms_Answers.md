@@ -24,7 +24,8 @@ b) sum = 0 => O(1)
 
 
 c) O(n)
-    this is a recursive function with a run time complexity of O(n) because the amount of time the function is executed is dependent on the value provided as "bunnies"
+    this is a recursive function with a run time complexity of O(n)
+    because the amount of time the function is executed is dependent on the value provided as "bunnies"
 
 ## Exercise II
  - start from f - 1 floor and drop the eggs
