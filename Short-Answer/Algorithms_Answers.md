@@ -27,5 +27,9 @@ c) O(n)
     this is a recursive function with a run time complexity of O(n) because the amount of time the function is executed is dependent on the value provided as "bunnies"
 
 ## Exercise II
-
+ - start from f - 1 floor and drop the eggs
+ - check if the eggs break
+ - if the eggs break, go down the floor again, check if the egg breaks
+ - if they break, drop down to the next floor that's f-2, if it doesn't break return the current floor
+ - run time complexity is O(f)
 
